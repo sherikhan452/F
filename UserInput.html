@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input</title>
+</head>
+<body>
+    
+<h1 style="text-align: center;"> Markesheet</h1>
+                
+    <script type="text/javascript">
+
+        var userinput= prompt("Enter Any Name");
+        
+        //Roll No
+
+        var m= parseInt(prompt("Enter Math Marks Here")); //100
+        var p= parseInt(prompt("Enter Physics Marks Here"));    //100     
+        var u= parseInt(prompt("Enter Urdu Marks Here"));     //100
+        var e= parseInt(prompt("Enter English Marks Here")); //100
+
+        var obtained=m+p+u+e;
+
+        var per=obtained/400*100;  //Obtain / total * 100
+ 
+            document.write("Your name is: "+userinput+"<br>");
+            document.write("Your Maths Marks is: "+m+"<br>");
+            document.write("Your Physics Marks is: "+p+"<br>");
+            document.write("Your Urdu Marks is: "+u+"<br>");
+            document.write("Your English Marks is: "+e+"<br>");
+            document.write("Your Obtained Marks is: "+obtained+"<br>");
+            document.write("Your Percentage is: "+per+ "%<br>");
+
+            
+
+            
+
+    </script>
+</body>
+</html>

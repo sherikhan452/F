@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+</head>
+<body>
+    <button class="btn btn-outline-dark" onclick="Regx()">Regular Expression</button>
+<h1 id="L"></h1>
+
+<script>
+
+function Regx(){ //User Defined Function
+    var a=/\d{5}-\d{7}-\d{1}/g; //Regular Expression
+    var b="42401-9012345-1";
+    var c=b.replace(a,"Match");
+    var o=a.test(b);
+    document.getElementById("L").innerHTML=o;
+}
+
+
+            // Math Random
+
+var number=prompt(parseInt("Enter Any Num"));
+var lovescore=Math.random(number)*100; //Built it Function
+lovescore=Math.floor(lovescore)+1;
+document.write("Your Love Score "+ lovescore);
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

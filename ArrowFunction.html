@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<body>
+
+    <h1 id="demo"></h1>
+
+    <script>
+        
+        //Normal Function 
+        function sum(a,b){
+
+            return a+b;
+
+        }
+
+        function sub(b,d){
+
+            return b-d;
+
+        }
+
+        function maximum_values(e,f,g){
+            return e*f*g;
+        }
+        //Arrow Function
+
+        let abc = (a,b) =>  a+b;
+        let Fun = (b,d) =>  b-d; 
+        let bigger = (e,f,g) => e*f*g;
+
+    document.getElementById('demo').innerHTML=bigger(12,12,12);
+
+
+
+    </script>
+</body>
+</html>

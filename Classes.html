@@ -1,0 +1,110 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes & Objects</title>
+</head>
+<body>
+
+<h1 id="demo"></h1>
+
+<script>
+
+    class Person{     
+
+        constructor(name,age,gender){
+               this.name=name;
+               this.year=age;
+               this.gender=gender; 
+        }
+
+        Print_Name(){
+            return this.name; 
+        }
+
+        Print_age(){
+            return this.age; 
+        }
+
+        Print_gender(){
+            return this.gender; 
+        }
+
+    }
+
+    const Obj1 =new Ford("Sk","26","Male");
+    document.getElementById('demo').innerHTML="The Ford Card Owner Name is "+Obj1.Print_Name()
+    +"<br>The Ford Card Model Year is: "+Obj1.Print_age()
+    +"<br>The Ford Gender Card Model Year is: "+Obj1.Print_gender();
+
+
+</script>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes&Object</title>
+</head>
+<body>
+    <!-- <h1 id="demo"></h1> -->
+    <h1 id="rrr"></h1>
+    <script>
+           
+        //    class Ford{
+
+        //     constructor(name,year){
+             
+        //         this.name=name;
+        //         this.year=year;
+        //     }
+
+        //     Print_Name(){
+        //         return this.name;
+        //     }
+
+            
+        //     Print_Year(){
+        //         return this.year;
+        //     }
+        //    }
+
+        //    const Obj1=new Ford("BMW","2016");
+        //    document.getElementById("demo").innerHTML="The Car Name Is "+Obj1.Print_Name()+"<br>The Model year of the car is "+Obj1.Print_Year();
+
+
+        class Person{
+
+constructor(name,age,gender){
+ 
+    this.name=name;
+    this.age=age;
+    this.gender=gender
+}
+
+Print_Name(){
+    return this.name;
+}
+
+
+Print_Age(){
+    return this.age;
+}
+
+Print_Gender(){
+    return this.gender;
+}
+}
+
+const Obj2=new Person("Yaz","18","Male");
+document.getElementById("rrr").innerHTML="Name: "+Obj2.Print_Name()+"<br>Age : "+Obj2.Print_Age()+"<br>Gender: "+Obj2.Print_Gender();
+    </script>
+</body>
+</html>
